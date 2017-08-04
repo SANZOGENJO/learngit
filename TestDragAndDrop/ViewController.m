@@ -28,7 +28,7 @@
     [self.view addInteraction:dropAction];
     
     dragView.interactions = @[dragAction,dropAction];
-
+    NSLog(@"test commit");
 }
 
 - (NSArray<UIDragItem *> *)dragInteraction:(UIDragInteraction *)interaction itemsForBeginningSession:(id<UIDragSession>)session{
