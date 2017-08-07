@@ -84,8 +84,6 @@
 		234E784E1F00E02F00E14205 = {
 			isa = PBXGroup;
 			children = (
-				2303D1731F386176008A6252 /* sss.h */,
-				2303D1741F386176008A6252 /* sss.m */,
 				234E78591F00E02F00E14205 /* TestDragAndDrop */,
 				234E78721F00E03000E14205 /* TestDragAndDropTests */,
 				234E787D1F00E03000E14205 /* TestDragAndDropUITests */,
@@ -106,6 +104,8 @@
 		234E78591F00E02F00E14205 /* TestDragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
+				2303D1731F386176008A6252 /* sss.h */,
+				2303D1741F386176008A6252 /* sss.m */,
 				234E785A1F00E02F00E14205 /* AppDelegate.h */,
 				234E785B1F00E02F00E14205 /* AppDelegate.m */,
 				234E785D1F00E02F00E14205 /* ViewController.h */,
