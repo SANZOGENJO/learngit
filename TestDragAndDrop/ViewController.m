@@ -29,6 +29,7 @@
     
     dragView.interactions = @[dragAction,dropAction];
     NSLog(@"test commit");
+    NSLog(@"撤销操作。。。");
 }
 
 - (NSArray<UIDragItem *> *)dragInteraction:(UIDragInteraction *)interaction itemsForBeginningSession:(id<UIDragSession>)session{

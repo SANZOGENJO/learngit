@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2303D1751F386176008A6252 /* sss.m in Sources */ = {isa = PBXBuildFile; fileRef = 2303D1741F386176008A6252 /* sss.m */; };
 		234E785C1F00E02F00E14205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E785B1F00E02F00E14205 /* AppDelegate.m */; };
 		234E785F1F00E02F00E14205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E785E1F00E02F00E14205 /* ViewController.m */; };
 		234E78621F00E02F00E14205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234E78601F00E02F00E14205 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2303D1731F386176008A6252 /* sss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sss.h; sourceTree = "<group>"; };
+		2303D1741F386176008A6252 /* sss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sss.m; sourceTree = "<group>"; };
 		234E78571F00E02F00E14205 /* TestDragAndDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDragAndDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		234E785A1F00E02F00E14205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		234E785B1F00E02F00E14205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		234E784E1F00E02F00E14205 = {
 			isa = PBXGroup;
 			children = (
+				2303D1731F386176008A6252 /* sss.h */,
+				2303D1741F386176008A6252 /* sss.m */,
 				234E78591F00E02F00E14205 /* TestDragAndDrop */,
 				234E78721F00E03000E14205 /* TestDragAndDropTests */,
 				234E787D1F00E03000E14205 /* TestDragAndDropUITests */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				234E785F1F00E02F00E14205 /* ViewController.m in Sources */,
+				2303D1751F386176008A6252 /* sss.m in Sources */,
 				234E786A1F00E02F00E14205 /* main.m in Sources */,
 				234E785C1F00E02F00E14205 /* AppDelegate.m in Sources */,
 			);
@@ -518,6 +524,7 @@
 				234E78851F00E03000E14205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		234E78861F00E03000E14205 /* Build configuration list for PBXNativeTarget "TestDragAndDropTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				234E78881F00E03000E14205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		234E78891F00E03000E14205 /* Build configuration list for PBXNativeTarget "TestDragAndDropUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				234E788B1F00E03000E14205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
